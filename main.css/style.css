@@ -306,7 +306,7 @@ p {
   .contact-left p {
     font-size: 1.2em;
     color: #555;
-    margin: 20px 100px 20px 110px; /* top, right, bottom, left */
+    margin: 20px 100px 20px 60px; /* top, right, bottom, left */
    
     
 }
@@ -318,7 +318,7 @@ p {
   /* Style for the social icons */
     .social-icons {
     margin-top: 20px;
-    margin: 20px 100px 20px 100px;
+    margin: 20px 100px 20px 40px;
   }
   
   .social-icons a {
