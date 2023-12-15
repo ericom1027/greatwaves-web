@@ -40,6 +40,11 @@ header {
     font-size: 4vmin;
 }
 
+.fa-brands {
+    font-size: 30px; 
+  }
+
+
 .line {
     width: 150px;
     height: 4px;
@@ -318,7 +323,7 @@ p {
   
   .social-icons a {
     position: relative;
-    color: #333;
+    color: #49497e;
     text-decoration: none;
     margin-right: 30px;
     margin-left: 60px;
