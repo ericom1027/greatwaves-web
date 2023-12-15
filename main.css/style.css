@@ -21,13 +21,16 @@ a {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(8, 3, 3, 0), rgb(11, 12, 12)), url(/images/WavePool.jpg);
+    background-image: linear-gradient(rgba(8, 3, 3, 0), rgb(11, 12, 12)), url(/images/WavePool.jpg); 
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    
+}
+
+.header-content video {
+    z-index: -1;
 }
 
 .header-content {
@@ -40,9 +43,6 @@ header {
     font-size: 4vmin;
 }
 
-.fa-brands {
-    font-size: 30px; 
-  }
 
 
 .line {
@@ -275,7 +275,7 @@ p {
 }
 
 
-/* Style for the section with class contact-us */
+/* ----contact-us------ */
 .contact-us {
     padding: 50px 0;
     background-color: #f4f4f4;
@@ -290,7 +290,7 @@ p {
   
   /* Style for the left side of the contact section */
   .contact-left {
-    flex: 1;
+    flex: 2;
     text-align: left;
   }
   
@@ -305,20 +305,30 @@ p {
   /* Style for the email and phone */
   .contact-left p {
     font-size: 1.2em;
-    color: #555;
-    margin: 20px 100px 20px 100px; /* top, right, bottom, left */
+    color: #333;
+    margin: 20px 0px 20px 100px; /* top, right, bottom, left */
    
     
 }
 
 .contact-left p i {
-    font-size: 12px;
-   
-}
-  /* Style for the social icons */
-    .social-icons {
-    margin-top: 20px;
-    margin: 20px 100px 20px 40px;
+    font-size: 20px;
+}   
+
+/* Style for the social icons */
+.social-icons {
+    /* margin-top: 20px;
+    margin-left: 100px; */
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+  }
+  
+  .icon-text {
+    margin-left: 5px;
+  }
+  
+  .fa-brands {
+    font-size: 30px;
   }
   
   .social-icons a {
@@ -326,14 +336,14 @@ p {
     color: #49497e;
     text-decoration: none;
     margin-right: 30px;
-    margin-left: 60px;
     transition: transform 0.5s;
   }
-
-  .social-icons a:hover{
-    color:#059e0d;
+  
+  .social-icons a:hover {
+    color: #059e0d;
     transform: translateY(-5px);
-}
+  }
+  
   .contact-right {
     flex: 1;
     text-align: left;
@@ -361,14 +371,7 @@ p {
     cursor: pointer;
   }
   
-  /* Style for the message below the form */
-  #msg {
-    display: block;
-    margin-top: 10px;
-    color: #484872;
-  }
-  
-
+ 
 .footer {
     width: 100%;
     min-height: 100px;
@@ -476,6 +479,8 @@ p {
         flex: 1;
         text-align: center;
         margin-bottom: 20px;
+        
+        
       }
       
       .contact-left p,
