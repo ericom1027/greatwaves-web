@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
     }
 
+body {
+        caret-color: transparent;
+     }
+
 a {
     text-decoration: none;
     color: white;
