@@ -240,19 +240,22 @@ p {
     width: 100%; 
     overflow: hidden;
     align-items: center;
+   
   }
   
   .slide {
     display: none;
-  }
+ }
   
   .slide img {
     width: 100%;
     height: auto;
+    
   }
   
   .slide.active {
     display: block;
+ 
   }
 
   .content-col {
@@ -261,7 +264,7 @@ p {
 
  .image-col {
     width: 60%;
-    margin-left: 20px;
+    margin-left: 100px;
  }
 
  .content-col h1{
@@ -278,7 +281,8 @@ p {
 /* ----contact-us------ */
 .contact-us {
     padding: 50px 0;
-    background-color: #f4f4f4;
+    background-color: #f5efef;
+    border-radius: 20px;
   }
   
   /* Style for the container */
