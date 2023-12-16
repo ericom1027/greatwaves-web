@@ -345,6 +345,7 @@ p {
   
   .social-icons a:hover {
     color: #059e0d;
+    display: inline-block;
     transform: translateY(-5px);
   }
   
