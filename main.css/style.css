@@ -536,7 +536,7 @@ p {
 /* Animations */
 
 .btn:hover {
-    background: dimgray;
+    background: #07DDF6;
     box-shadow: 2px 2px 5px rgb(15, 1, 1);
 }
 
