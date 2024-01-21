@@ -1,178 +1,299 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Mobile Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Greatwaves</title>
-    <link rel="stylesheet" href="/main.css/style.css">
+
+   
+    <!-- Bootstrap -->
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="icon" href="images/icons.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/b91f6f3f96.js" crossorigin="anonymous"></script>
+   
+  <!-- Google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/main.css/style.css">
+  <script src="https://kit.fontawesome.com/b91f6f3f96.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <nav class="navbar">
-        <img src="/images/logo.jpg" class="logo" alt="">
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact" class="btn">Contact</a></li>
-        </ul>
-        <img src="/images/menu.png" alt="" class="menu-btn">
-    </nav>
-
-    <header>
-        <div class="header-content">
-           <h1>Explore in Floridablanca Pampanga</h1>
-            <div class="line"></div>
-            <h2>Greatwaves Leisure and Resort</h2>
-            <a href="#aboutus" class="btn">Learn More</a><br><br>
+        <!--Navbar start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+         <a id="logo" class="navbar-brand" href="#"><img src="./images/logo.jpg" class="img-fluid" alt=""></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+           <div class="navbar-nav ml-auto">
+             <a class="nav-link" href="#">Home</a>
+             <a class="nav-link" href="#about">About Us</a>
+             <a class="nav-link" href="#explore">Explore</a>
+             <a class="nav-link" href="#gallery">Gallery</a>
+             <a class="nav-link" href="#contact">Contact</a>
+           </div>
+         </div>
         </div>
+       </nav>
+       <!-- Navbar End -->
        
-    </header>
-    
-    <section class="about-us" id="aboutus">
-     <div class="title">
-        <h1>About Us</h1>
+       <!-- landing -->
+       
+       <div class="container-fluid text-center py-2" id="landing">
+        <h2 class="text-light py-2 my-3">Explore in Floridablanca Pampanga</h2>
         <div class="line"></div>
-     </div>
-     <div>
-        <p>At our leisure and resort destination, we take pride in offering a unique experience that combines relaxation, entertainment, and business opportunities. Nestled amidst breathtaking landscapes, our resort caters to the needs of both leisure seekers and professionals.
-            With a diverse range of amenities, including luxurious accommodations, we ensure an unforgettable stay for our guests. Our commitment to excellence extends beyond leisure, as we provide state-of-the-art commercial spaces designed to facilitate business meetings, conferences, and events.
-            Whether you're here to unwind and indulge in recreational activities or to conduct business in a sophisticated environment,our resort seamlessly blends leisure and commerce to exceed your expectations. Discover the perfect balance between leisurely escapes and productive ventures at our resort with commercial spaces.</p>
-     </div>
-    <div class="row">
-        <div class="col">
-            <img src="./images/morning.jpg" class="about-img" alt="morning">
-            <h4>Commercial Space</h4>
-            <p>
-                Commercial spaces serve as bustling hubs where business, innovation, and community converge. These versatile environments encompass a spectrum of establishments, from sleek corporate offices to vibrant retail outlets, fostering a dynamic interplay of economic activity.</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-
-        <div class="col">
-            <img src="./images/function.jpg" class="about-img" alt="function">
-            <h4>Function Hall</h4>
-            <p>designed to host an array of events and gatherings, from elegant weddings to corporate conferences or celebratory parties. Its spacious interiors and adaptable layout serve as a canvas for diverse occasions, offering a blank slate for personalized decorations and setups.</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-    </div>
-    </section>
-
-    <section class="explore" id="explore">
-    <div class="explore-content">
-    <h1>Explore Greatwaves</h1>
-    <div class="line"></div>
-    <p>The convergence of leisure and commercial spaces within resorts creates an immersive environment where guests can unwind, explore, and engage in a myriad of activities while savoring the convenience of on-site retail and entertainment offerings.</p>
-    <a href="#" class="btn">Learn More</a>
-   </div>
-   </section>
-
-   <section class="gallery" id="gallery">
-    <div class="row">
-      <div class="col content-col">
-        <h1>Photo Gallery</h1>
-        <div class="line"></div>
-        <p>Step into a visual feast at our stalls' image gallery! Here, we present a kaleidoscope of vibrant snapshots capturing the heart and soul of our marketplace. Dive into a world of bustling energy, where each image reflects the diversity, creativity, and craftsmanship of our stallholders. From the tantalizing array of culinary delights to the exquisite handcrafted wares, these images showcase the passion and dedication infused into every offering. The colors, aromas, and intricate details leap off the screen, inviting you to experience the lively ambiance and unique charm that define our bustling stalls. Get ready to be inspired by the craftsmanship, culture, and sheer joy that our marketplace encapsulates.</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-      <div class="col image-col">
-        <div class="image-gallery">
-          <div class="slide">
-            <img src="images/toppizza.jpg"  alt="Image 1">
-          </div>
-          <div class="slide">
-            <img src="images/vapeshop.jpg"  alt="Image 2">
-          </div>
-          <div class="slide">
-            <img src="images/kambal.jpg" alt="Image 3">
-          </div>
-          <div class="slide">
-            <img src="images/kaps.jpg"  alt="Image 4">
-          </div>
-          <div class="slide">
-            <img src="images/shawarma.jpg" alt="Image 5">
-          </div>
-           <div class="slide">
-            <img src="images/coffeeshop.jpg"  alt="Image 6">
-          </div>
-          <div class="slide">
-            <img src="images/allbeef.jpg" alt="Image 7">
-          </div>
-          <div class="slide">
-            <img src="images/siowings.jpg"  alt="Image 8">
-          </div>
-          <div class="slide">
-            <img src="images/belle.jpg"  alt="Image 9">
-          </div>
-          <div class="slide">
-            <img src="images/slide.jpg"  alt="Image 10">
-          </div>
-          <div class="slide">
-            <img src="images/WavePool.jpg"  alt="Image 11">
-          </div>
-          <div class="slide">
-            <img src="images/wave1.jpg"  alt="Image 12">
-          </div>
-          <div class="slide">
-            <img src="images/function.jpg"  alt="Image 13">
-          </div>
-          <div class="slide">
-            <img src="images/terrace.jpg"  alt="Image 14">
-          </div>
-           <div class="slide">
-            <img src="images/bldg.jpg"  alt="Image 15">
-          </div>
-          <div class="slide">
-            <img src="images/night.jpg"  alt="Image 16">
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-us" id="contact">
-    <div class="container">
-      <div class="row">
-          <div class="contact-left">
-              <h1 class="sub-title">Get in Touch</h1>
-              <div class="line"></div>
-              
-              <p><i class="fa fa-map-marker-alt"></i><span class="icon-text">Purok 1 Barangay Mabical Floridablanca, Pampanga</span></p>
-              <p><i class="fa fa-envelope"></i><span class="icon-text">greatwavesmabical@gmail.com</span></p>
-              <p><i class="fas fa-square-phone"></i><span class="icon-text">+63923-718-2584</span></p>
-              <div class="social-icons">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=https://greatwaves-web.vercel.app/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://www.instagram.com/username/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/?trk=public_profile_nav-header-logo" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <h1 class="text-light">Greatwaves Leisure and Resort</h1>
+        <a href="#about" class="btn text-light py-2 my-2" id="btn-landing">Learn More</a>
+         <div class="row justify-content-center py-2 my-2">
+          
+           <div class="col-md-10 pt-md-5 text-center">
+             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/morning.jpg" class="img-fluid d-block w-100 rounded-lg" id="img-carousel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Commercial Space</h5>
+                <p class="user-select-all">Discover the ideal commercial space for your business where modern design meets functionality, providing a dynamic environment for growth and success.</p>
+              </div>
             </div>
-              
-          </div>
-          <div class="contact-right">
-           
-              <form action="#" id="myForm" method="post">
-                  <input type="text" name="Firstname" id="Firstname" placeholder="Firstname" required>
-                  <input type="text" name="Lastname" id="Lastname" placeholder="Lastname" required>
-                  <input type="email" name="Email" id="Email" placeholder="Your Email" required>
-                  <input type="tel" name="phone" id="phone" placeholder="Your Mobile no.">
-                  <textarea name="Message" id="Message" rows="6" placeholder="Your Message"></textarea>
-                  <button type="submit" class="btn">Submit</button>
-             </form>
-             
-          </div>
+            <div class="carousel-item">
+              <img src="./images/function.jpg" class="img-fluid d-block w-100 rounded-lg" id="img-carousel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Function Hall</h5>
+                <p class="user-select-all">Our state-of-the-art function hall is designed to cater to a diverse range of occasions, from weddings and corporate gatherings to social celebrations and more.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/WavePool.jpg" class="img-fluid d-block w-100 rounded-lg" id="img-carousel">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Wave Pool</h5>
+                <p class="user-select-all">Dive into the ultimate aquatic adventure at where the perfect wave meets exhilarating fun for an unforgettable water experience.</p>
+              </div>
+            </div>
+   </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+           </div>
+         </div>
+
+ </div>
+       <!-- end of landing -->
+    
+  <!-- Section Start About Us -->
+
+  <div class="container-fluid py-md-5" id="about">
+    <div class="row justify-content-center py-md-5 my-md-5">
+      <div class="col-md-3 my-5 py-5 my-md-0">
+        <img src="./images/night.jpg" class="img-fluid w-100 h-100 border border-light rounded-lg" style="object-fit: cover;">
       </div>
-  </section>
+      <div class="col-md-7">
+        <h4 class="mt-md-5 text-light" id="text-title">
+          About Us!
+        </h4>
+        <p class="text-light text-justify">
+          At our leisure and resort destination, we take pride in offering a unique experience that combines relaxation, entertainment, and business opportunities. 
+          Nestled amidst breathtaking landscapes, our resort caters to the needs of both leisure seekers and professionals. 
+          With a diverse range of amenities, including luxurious accommodations, we ensure an unforgettable stay for our guests. 
+          Our commitment to excellence extends beyond leisure, as we provide state-of-the-art commercial spaces designed to facilitate business meetings, conferences, and events. 
+          Whether you're here to unwind and indulge in recreational activities or to conduct business in a sophisticated environment,our resort seamlessly blends leisure and commerce to exceed your expectations. 
+          Discover the perfect balance between leisurely escapes and productive ventures at our resort with commercial spaces.
+        </p>
+        <p class="text-light text-justify">
+          Commercial spaces serve as bustling hubs where business, innovation, and community converge. 
+          These versatile environments encompass a spectrum of establishments, from sleek corporate offices to vibrant retail outlets, fostering a dynamic interplay of economic activity.
+        </p>	
+      </div>
+    </div>
+  </div>
+
+  <!-- Section End About Us -->
+    
+   <!-- Section Start Explore -->
+
+   <div class="container-fluid py-5" id="explore">
+    <div class="row justify-content-center align-items-center py-md-5 my-md-5">
+        <div class="col-md-6 text-center my-5">
+            <img src="./images/map.jpg" class="img-fluid" alt="Map Image">
+        </div>
+        <div class="col-md-6 text-center my-5">
+            <h2 class="mt-md-5">Explore Greatwaves Resort</h2>
+            <div class="line"></div>
+            <p class="text-justify">Great Waves Commercial Spaces and Pool with The Farm is more than just a workspace; it's a lifestyle choice. We invite you to immerse yourself in the harmony of work, play, and sustainability. 
+             Join us in this innovative community, where the ebb and flow of the ocean complement the rhythm of your professional and personal life.
+             Embark on a journey where the great waves propel not only your career but also your well-being, creating a perfect synergy between the demands of modern life and the tranquility of nature.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Section Explorer End -->
+
+
+<!-- Gallery Section Start -->
+   <h1 class="mt-2 mb-2 text-center text-dark">Gallery</h1>
+   <div class="line"></div>
+   <div class="card-deck my-5 py-5 justify-content-center bg-info" id="gallery">
+    <div class="card col-md-3 mt-2 mb-5">
+      <img src="./images/morning.jpg" class="img-fluid w-100 h-50 mt-2 rounded-lg" style="object-fit: cover;" alt="Commercial Space Image">
+      <div class="card-body py-2 my-2 overflow-auto">
+        <h5 class="card-title">Commercial Space</h5>
+        <p class="card-text text-justify small" id="commercialSpaceText">
+          Discover unparalleled opportunities for your business at our premium commercial spaces. Elevate your brand presence and productivity in our meticulously designed spaces that seamlessly blend sophistication with functionality. Whether you're a startup seeking a dynamic environment or an established business looking to expand, our commercial spaces offer the perfect backdrop for success. Enjoy state-of-the-art facilities, modern architecture, and a strategic location that caters to your business needs. With customizable layouts and premium amenities, we provide the canvas for you to shape your workspace according to your vision. Join a thriving community of businesses and position your brand at the forefront of innovation.
+        </p>
+        <a class="btn btn-link" data-toggle="collapse" href="#seeMoreCommercialSpace" role="button" aria-expanded="false" aria-controls="seeMoreCommercialSpace">
+          See More
+        </a>
+        <div class="collapse" id="seeMoreCommercialSpace">
+          <p class="text-justify">
+            Transform your aspirations into reality – reserve your commercial space today and step into a new era of business excellence.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+     <div class="card col-md-3 mt-2 mb-5">
+      <img src="./images/function.jpg" class="img-fluid w-100 h-50 mt-2 rounded-lg" style="object-fit: cover;" alt="Function Hall Image">
+      <div class="card-body py-2 my-2 overflow-auto">
+        <h5 class="card-title">Function Hall</h5>
+        <p class="card-text text-justify small" id="functionHallText">
+          Celebrate life's special moments in grandeur at our exquisite function hall available for rent. Nestled in an enchanting setting, our versatile venue is the perfect canvas for creating unforgettable memories. Whether you're planning a wedding reception, corporate event, or a milestone celebration, our function hall provides the ideal backdrop for your festivities. Boasting elegant decor, customizable layouts, and top-notch amenities, our space is designed to accommodate your unique vision. Our dedicated team is committed to ensuring your event unfolds seamlessly, from the initial planning stages to the final toast.
+        </p>
+        <a class="btn btn-link" data-toggle="collapse" href="#seeMoreFunctionHall" role="button" aria-expanded="false" aria-controls="seeMoreFunctionHall">
+          See More
+        </a>
+        <div class="collapse" id="seeMoreFunctionHall">
+          <p class="text-justify">
+            Elevate your gatherings and host an event. Reserve your date now and let the magic of our function hall turn your dreams into reality.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+   
+     <div class="card col-md-3 mt-2 mb-5">
+      <img src="./images/terrace.jpg" class="img-fluid w-100 h-50 mt-2 rounded-lg" style="object-fit: cover;" alt="...">
+      <div class="card-body py-2 my-2 overflow-auto">
+        <h5 class="card-title">Balcony</h5>
+        <p class="card-text text-justify small" id="balconyText">
+          Step into serenity with our charming balconies that redefine outdoor living. Our carefully designed balconies offer the perfect escape, allowing you to unwind and savor moments of tranquility. Whether you're enjoying a cup of morning coffee, basking in the golden hues of sunset, or simply taking in the fresh air, our balconies provide an intimate connection with nature. Adorned with comfortable furnishings and adorned with lush greenery, these elevated spaces are an extension of your home, inviting you to create cherished memories against a backdrop of scenic views.
+        </p>
+        <a class="btn btn-link" data-toggle="collapse" href="#seeMoreBalcony" role="button" aria-expanded="false" aria-controls="seeMoreBalcony">
+          See More
+        </a>
+        <div class="collapse" id="seeMoreBalcony">
+          <p class="text-justify ">
+            Embrace the allure of alfresco living, where every balcony becomes a private retreat, and every moment becomes a celebration of the extraordinary. Discover the art of elevated living today.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+   </div>
+<!--Gallery Section End -->
   
-  <section class="footer">
-     <p>© Copyright 2023 Greatwaves Leisure and Resort. All rights reserved</p>
-       <p><span class="words1"></span></p>
-  </section>
+
+ <!-- Contact Section Start-->
+ <h1 class="text-center text-dark my-5" id="contact">Contact Us!</h1>
+  <div class="line"></div>
+ <div class="row">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 my-4">
+            <h4 class="text-center text-dark my-4">Visit Us!</h4>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.3065338031893!2d120.5298416760435!3d14.975679767781832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33965fd72302fbbd%3A0xd4613d65c2ba4d7!2sGreat%20Waves%20Leisure%20%26%20Sports%20Resort!5e0!3m2!1sen!2stw!4v1705772987534!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="row justify-content-center py-5 mb-5">
+              <div class="col-3 col-md-1">
+               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+              <div class="col-3 col-md-1">
+               <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <div class="col-3 col-md-1">
+              <a href=" https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <div class="col-3 col-md-1">
+                <a href=" https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a> 
+               </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 my-4">
+            <h4 class="text-center text-dark my-4">Get in Touch</h4>
+            <div class="line"></div>
+            <form id="form-contact">
+                <div class="form-group">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" class="form-control" id="FullName" placeholder="Juan Dela Cruz" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email Address</label>
+                    <input type="Email" class="form-control" id="Email" placeholder="juandelacruz@gmail.com" required autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="contactno" class="text-light">Contact Number:</label>
+                    <input class="form-control" type="tel" name="contact" id="contactno" placeholder="0912-345-6789" pattern="0[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="text-light" for="concern">Concern:</label>
+                    <select class="form-control" id="concern" required>
+                        <option>Inquiry</option>
+                        <option>Schedule Appointment</option>
+                        <option>Follow-Up</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" rows="6" placeholder="Enter your message here." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- Contact Section End -->
   
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
+
+<div class="footer footer-expand-lg d-flex justify-content-center d-block gap-3 m-3 py-3 pt-md-5">
+   <div class="col-md-4 text-center">
+    <p class="words1"></p>
+  </div>
+  
+  <div class=" col-md-4 text-center">
+     <p>© Copyright 2023 Greatwaves Leisure and Resort. All rights reserved.</p>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <!-- bootstrap js-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<!-- Bootstrap End -->
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
