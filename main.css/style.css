@@ -20,7 +20,10 @@ html {
  /* background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)); */
     
    }
-
+ #hr-landing{
+   min-height: .5em;
+   border-radius: 8px;
+ }
  #logo img {
     height: 100px;
     width: 100px;
@@ -56,8 +59,9 @@ html {
 }
 
  #img-carousel {
-    height: 60vh;
+    height: 50vh;
     object-fit: cover;
+    
    }
 
  #about {
@@ -85,5 +89,7 @@ html {
 
  .footer {
    background-color: yellowgreen;
+}
+
 }
 
